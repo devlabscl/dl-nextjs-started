@@ -9,7 +9,9 @@
 @import "components/modal";
 
 body {
-
+  color: $text-color;
+  background-color: $background-color;
+  font-family: $default-font;
 }
 
 @keyframes bg-move {
