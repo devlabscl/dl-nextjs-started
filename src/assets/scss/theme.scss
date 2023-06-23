@@ -1,0 +1,31 @@
+@import "./_variables";
+@import "bootstrap/scss/bootstrap";
+@import "components/grid";
+@import "components/cards";
+@import "components/swiper";
+@import "components/forms";
+@import "components/buttons";
+@import "components/navbar";
+@import "components/modal";
+
+body {
+
+}
+
+@keyframes bg-move {
+  0% {
+    background-position: center bottom;
+  }
+  100% {
+    background-position: center top;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+}

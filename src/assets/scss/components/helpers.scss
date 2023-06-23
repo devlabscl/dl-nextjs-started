@@ -1,0 +1,27 @@
+$font-weights: (
+        "light" : 200,
+        "lighter" : 300,
+        "normal" : 400,
+        "bold" : 500,
+        "bolder" : 600,
+        "extra-bold" : 700,
+        "extra-bolder" : 800,
+        "black" : 900
+);
+
+ //render font weights
+@each $font-weight, $value in $font-weights {
+  .font-#{$font-weight} {
+    font-weight: $value;
+  }
+}
+
+@for $i from 10 through 20 {
+  .font-#{$i} {
+    font-size: #{$i}px;
+  }
+
+  .lh-#{$i} {
+    line-height: #{$i}px;
+  }
+}
